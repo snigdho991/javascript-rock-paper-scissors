@@ -124,8 +124,6 @@ const game = () => {
 
 		if (computerChoice === playerChoice) {
 			winner.textContent = 'It\'s a tie !';
-			pScore++;
-			updateScore();
 			return;
 		}
 
